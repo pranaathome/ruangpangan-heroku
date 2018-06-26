@@ -8,7 +8,7 @@
 
 $url = parse_url(getenv("DATABASE_URL"));
 
-$host = $url["host"];
+$host = '192.168.10.10';
 $username = $url["user"];
 $password = $url["pass"];
 $database = substr($url["path"], 1);
